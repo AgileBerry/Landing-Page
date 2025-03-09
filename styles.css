@@ -49,3 +49,51 @@ a {
   color: white;
   border: none;
 }
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  gap: 3em;
+}
+.large-loaf-container {
+  display: flex;
+  gap: 1em;
+}
+.loaf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+.loaf-image {
+  width: 300px;
+  height: 200px;
+  border: 8px solid rgb(235, 118, 0);
+  border-radius: 50px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 184, 113);
+  padding: 4em;
+  align-items: center;
+}
+.quote-container-small {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 300px;
+}
+.quote {
+  text-align: left;
+  font-style: italic;
+  font-weight: 400;
+}
+.quote-author {
+  align-self: flex-end;
+  font-weight: 700;
+  font-style: italic;
+}
